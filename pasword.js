@@ -4,7 +4,6 @@ const genaretorContenar=document.querySelector(".container");
 const viewContener=document.querySelector(".container1");
 
 
-
 let oldTab = userTab;
 oldTab.classList.add("current-tab");
 
@@ -32,8 +31,6 @@ function switchTab(newTab) {
     }
 }
 
-
-
 userTab.addEventListener("click", () => {
     //pass clicked tab as input paramter
     switchTab(userTab);
@@ -43,7 +40,6 @@ searchTab.addEventListener("click", () => {
     //pass clicked tab as input paramter
     switchTab(searchTab);
 });
-
 
 
 //----------------------------------- password genaretror-------------------------------=======================================
